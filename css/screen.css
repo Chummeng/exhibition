@@ -1,0 +1,152 @@
+/* CSS Document for Screens */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+Body { font-family: 'Poppins', sans-serif; font-size: 15px;font-weight: 0; color: #555; margin: 0; padding: 0;}
+
+#page { max-width: 1200px; margin: 0 auto; position: relative;}
+/* text */ 
+    
+h1 {margin: 0 0 1em 0; font: 2.8em; font-weight: 700;}
+h2 {margin: 0 0 5em 0; font: 1.6em; font-weight: 700; line-height: 1.1em;}
+h3 {margin: 0 0 5em 0; font: 1.6em; font-weight: 700; }
+h4 {margin: 0 0 5em 0; font: 1.6em; font-weight: 700; }
+
+p {margin:  0 0 1em 0;}
+
+a { color: #007eff;}
+a:visited{ color: #65b1ff;}
+
+a.btn {font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff: padding: 4px 15px; transition: background-color .5s; }
+a.btn:hover{background: rgba(0,0,0,.2);}
+
+/* header */
+
+header { height: 40px; background-image: url(../images/running.gif) no-repeat center bottom; margin 0; position: relative; }
+
+
+header a.logo span {display: none;}
+
+header div.hero {position: absolute; width: 100%; top: 15px; left: 1%;}
+header div.hero h1 { line-height: 1em; margin: 0 0 30px 0; color: white; 
+font-size: 10px
+}
+
+/*Aside*/
+
+aside {
+  display: block;
+}
+
+/*div sizing*/
+.Exhibition,
+.Opening,
+.Introduction,
+.ellis,
+.davidcar, 
+.tools,
+.future,
+.contact,
+.book
+{
+    height: 250px;
+}
+
+/* section - all */
+
+section { padding: 0 10px; }
+section::after{ content: ''; display: block; clear: both;}
+
+/* section - main */
+
+section.main { margin: 20px; margin-bottom: 30px; padding: 0; background-color: white}
+section.main aside {width: 33%; float:  left; text-align: center;}
+
+section.main .content {margin: 5px; background: no-repeat center top; background-size: 180px 120px ; padding-top: 10px; padding-bottom: 10px;}
+
+
+section.main aside h3 a{ color: #000; text-decoration: none;}
+section.main aside h3 a:hover{text-decoration: line-through;}
+
+
+
+section.main aside .content.Exhibition { background-image: url(../images/Davidel.gif)}
+
+section.main aside .content.Opening { background-image: url(../images/carson.gif)}
+
+section.main aside .content.Introduction { background-image: url(../images/carson.gif)}
+
+section.main aside .content.ellis { background-image: url(../images/El_.gif)}
+
+section.main aside .content.davidcar { background-image: url(../images/carson1.gif)}
+
+section.main aside .content.tools { background-image: url(../images/carson1.gif)}
+
+section.main aside .content.future { background-image: url(../images/motion_1.gif)}
+
+section.main aside .content.book { background-image: url(../images/motion_1.gif)}
+
+section.main aside .content.contact { background-image: url(../images/El_David.jpg)}
+
+section.main aside .content.tools { background-image: url(../images/CarsonEl.gif)}
+
+
+
+
+/* section. howto */
+
+section.howto { background-color: #eee9d9; position: relative;}
+section.howto aside { width: 30%; float: left; margin-right: 10px;}
+section.howto aside .content {padding: 30px 30px 20px 0;}
+section.howto aside .content img {display:block; margin-bottom: 15px; width: 70%;}
+section.howto aside .content h4 { margin-bottom: o; }
+section.howto aside .content p { margin-bottom: o.5em; }
+section.howto aside .content a { display: inline-block; color: coral; font-weight: 700;}
+
+
+section.howto blockquote {
+    margin: 0; width: 32%;
+    color: #444;
+    background: #fff;
+    position: absolute; bottom: 0; right: 4%;
+    
+}
+
+section.howto blockquote p {margin: 30px 30px 20px 50px;}
+
+section.howto blockquote p.quote { font-style: italic; font-size: 1.2em; }
+
+section.howto blockquote p.credit {
+    color: #777;
+    font-size: .9em; margin-top: 0; padding-left: 20px; line-height: 1.3em; position: relative;
+}
+
+section.howto blockquote::before{
+    content: '\201c'; color: black;
+    position: absolute;
+    top: 10px; left: 8px;
+    font-size: 5em;
+    font-family: serif;
+}
+
+section.how-to blockquote p.quote::after { content: '\201d'; font-family: serif;}
+ 
+section.how-to blockquote p.credit::before{content: '\2014'; position: absolute; top: -1px; left: 0;}
+
+
+/* footer */
+
+footer { height: 40px; background: #cf0004 url(../images/#) no-repeat center bottom; margin 0; position: relative; }
+
+
+footer {font-size: .8em; margin: 40px; color: #990;}
+footer .content { display: inline; }
+footer a { margin-left: 30px; color: #777; }
+footer a:visited {color: #777;}
+footer a:hover{color: #000;}
+
+
+
+
+
